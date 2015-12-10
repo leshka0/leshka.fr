@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "MistralStd";
+    src: url(fonts/MistralStd.otff);
+}
+.projectname {
+  color: #e3001b;
+  font-family: "MistralStd", Arial-Black;
+  letter-spacing: 0em;
+  line-height: 0.9em !important;
+} 
+.profile {
+  background-image: url("pics/violaine_et_jeremy_profile.jpg");
+  background-position: center;
+  background-size: cover;
+}

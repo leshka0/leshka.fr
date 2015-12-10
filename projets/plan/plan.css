@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "FreestyleScriptStd";
+    src: url(fonts/FreestyleScriptStd.otf);
+}
+.projectname {
+  color: #ff7272;
+  font-family: "FreestyleScriptStd", Arial-Black;
+  font-size: 132px !important;
+  letter-spacing: 0em;
+  line-height: 0.8em !important;
+} 
+.profile {
+  background-image: url("pics/plan_profile.jpg");
+  background-position: center;
+  background-size: cover;
+  border: 3px solid white;
+}
+.chapo {
+  color: #ff7272;
+  font-family: "FreestyleScriptStd", Arial-Black;
+  font-size: 90px !important;
+  letter-spacing: 0em;
+}

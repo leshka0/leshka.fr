@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "bebas";
+    src: url(fonts/bebas/BebasNeue_Bold.ttf) format("truetype");
+}
+.projectname {
+  color: #eda239;
+  font-family: "bebas", Arial-Black;
+  letter-spacing: -0.02em;
+  line-height: 0.8em !important;
+} 
+.profile {
+  background-image: url("pics/gasoil-now_profile.jpg");
+  background-position: center;
+  background-size: cover;
+  border: 3px solid white;
+}

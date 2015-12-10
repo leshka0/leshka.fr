@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "cubano";
+    src: url(fonts/cubano/cubano-regular-webfont.ttf) format("truetype");
+}
+.projectname {
+  color: #da0006;
+  font-family: "cubano", Arial-Black;
+  letter-spacing: -0.05em;
+  line-height: 0.8em !important;
+} 
+.profile {
+  background-image: url("pics/hungry-now_profile.jpg");
+  background-position: center;
+  background-size: cover;
+  border: 3px solid white;
+}

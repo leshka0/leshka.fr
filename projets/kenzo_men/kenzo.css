@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "FUTURASTD-LIGHT";
+    src: url(fonts/futura/FUTURASTD-LIGHT.OTF) format("truetype");
+}
+@font-face {
+    font-family: "FUTURASTD-HEAVY";
+    src: url(fonts/futura/FUTURASTD-HEAVY.OTF) format("truetype");
+}
+.projectname {
+  color: #ffed08;
+  font-family: "FUTURASTD-LIGHT", Arial-Black;
+  letter-spacing: 0em;
+  text-transform: uppercase;
+  line-height: 0.9em !important;
+} 
+.profile {
+  background-image: url("pics/dior-addict_profile.jpg");
+  background-position: center;
+  background-size: cover;
+  border: 3px solid white;
+}
+.chapo {
+  font-size: 2em;
+  font-family: 'FUTURASTD-LIGHT';
+  color:#ffed08;
+  text-transform: uppercase;
+  line-height: 1em;
+}
+
+.bold {
+  font-size: 0.5em;
+  font-family: 'FUTURASTD-HEAVY';
+  color:#ffffff;
+
+}

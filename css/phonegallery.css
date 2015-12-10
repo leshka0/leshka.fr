@@ -1,0 +1,38 @@
+.phonegallery{
+
+}
+
+.phone{
+  width: 100%;
+  position: relative;
+  margin: auto;
+  text-align: center;
+  z-index: 10;
+}
+.phonemask{
+  position: absolute;
+  top: 14.2%;
+  left: 8%;
+  height: calc(100% - 19%);
+  width: calc(100% - 14%);
+  margin: 0px;
+  overflow: hidden;
+  z-index: 0;
+}
+.phonelist{
+  position: relative;
+  width: 1500%;
+
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  z-index: 0;
+
+}
+.phonelist img{
+  width: calc(12% - 5.41%);
+  margin-right: -0px;
+  z-index: 0;
+
+}

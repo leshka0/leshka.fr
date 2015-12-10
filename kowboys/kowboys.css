@@ -1,0 +1,18 @@
+.column a:hover img{
+  opacity: 1 !important;
+  -ms-filter: contrast(100%)  grayscale(0%); 
+  -webkit-filter: contrast(100%)  grayscale(0%); 
+  filter: contrast(100%)  grayscale(0%); 
+  }
+@media (max-width: 640px){
+ 
+
+  .column a img{
+   width: calc(100vw - 20px);
+
+   opacity: 1 !important;
+  -ms-filter: contrast(100%)  grayscale(0%); 
+  -webkit-filter: contrast(100%)  grayscale(0%); 
+  filter: contrast(100%)  grayscale(0%); 
+  }
+}

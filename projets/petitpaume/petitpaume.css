@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "ChronicleDeck";
+    src: url(fonts/ChronicleDeck-Bold.otf) format("truetype");
+}
+.projectname {
+  color: #bce9c5;
+  font-family: "ChronicleDeck", Arial-Black;
+  letter-spacing: 0em;
+  text-transform: uppercase;
+  line-height: 0.9em !important;
+} 
+.profile {
+  background-image: url("pics/petitpaume_profile.jpg");
+  background-position: center;
+  background-size: cover;
+  border: 3px solid white;
+}
+.glory{
+  position: relative;
+  margin: auto;
+  text-align: center;
+  width: calc(122px * 4);
+  margin-top: 50px;
+}
+.glorymask{
+  position: relative;
+  height: 24px;
+  width: 100%;
+  margin: 0px;
+  margin-top: 150px;
+  overflow: hidden;
+}
+.glorylist{
+  position: relative;
+  width: 100%;
+  text-align: center;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  line-height: 24px;
+  
+
+}
+.glorylist li{
+list-style-type: none;
+}

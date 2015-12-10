@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "diamante";
+    src: url(fonts/Avenir/AvenirLTStd-Light.otf) format("truetype");
+}
+.projectname {
+  color: #f2dbbe;
+  font-family: "diamante", Arial-Black;
+  letter-spacing: 0em;
+  text-transform: uppercase;
+  line-height: 0.9em !important;
+} 
+.profile {
+  background-image: url("pics/dior-addict_profile.jpg");
+  background-position: center;
+  background-size: cover;
+  border: 3px solid white;
+}
+.glory{
+  position: relative;
+  margin: auto;
+  text-align: center;
+  width: calc(122px * 4);
+  margin-top: 50px;
+}
+.glorymask{
+  position: relative;
+  height: 24px;
+  width: 100%;
+  margin: 0px;
+  margin-top: 150px;
+  overflow: hidden;
+}
+.glorylist {
+  position: relative;
+  -webkit-transition: all 0.5s ease-in-out !important;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out !important;
+
+
+}
+.glorylist li{
+  position: relative;
+  width: 100%;
+  text-align: center;
+  line-height: 24px;
+  
+
+}

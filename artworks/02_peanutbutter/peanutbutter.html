@@ -1,0 +1,210 @@
+
+<style type="text/css">
+@font-face {
+    font-family: "Montserrat";
+    src: url(artworks/02_peanutbutter/assets/Montserrat-Regular.ttf);
+}
+
+    .landing{
+        position: absolute;
+        top: 5%;
+        z-index: 5;
+        left: 0px;
+        right: 0px;
+        text-align: center;
+        font-size: 600px;
+        color: #1bbc9d;
+        margin: auto;
+        opacity: 1;
+        text-align: center;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+    @media (max-width: 1500px){
+      .landing{
+        font-size: 400px;
+      }
+    }
+    @media (max-width: 1200px){
+      .landing{
+        font-size: 300px;
+      }
+    }
+    @media (max-width: 850px){
+      .landing{
+        font-size: 200px;
+      }
+    }
+    .colorful{
+       font-family: "Montserrat";
+       color: white;
+       opacity: 0;
+    }
+    .canvas{
+      background-position-x: 100px;
+      background-position-y: 100px;
+    }
+
+
+</style>
+
+
+<script type="text/javascript">
+//var page="wtf-lvl2";
+</script>
+
+
+
+<div class="canvas" style="position:absolute; left:0px; right:0px; top:0px; bottom:0px; background-color:black; background-image: url('artworks/02_peanutbutter/assets/DanceSad.png');" >
+  <div class="landing colorless">
+</div>
+<div class="landing colorful">
+ YEAH!
+</div>
+</div>
+
+
+<audio style="opacity:0;" class="PeanutButter" controls preload="none"> 
+  <source src="artworks/02_peanutbutter/assets/PeanutButter.mp3" type="audio/mpeg">
+</audio>
+
+
+
+<script type="text/javascript">
+
+var images = new Array()
+function preload() {
+	for (i = 0; i < preload.arguments.length; i++) {
+		images[i] = new Image()
+		images[i].src = preload.arguments[i]
+	}
+}
+preload(
+	"artworks/02_peanutbutter/assets/Dance1Up.png",
+	"artworks/02_peanutbutter/assets/Dance2Up.png",
+	"artworks/02_peanutbutter/assets/Dance1Down.png",
+	"artworks/02_peanutbutter/assets/Dance2Down.png"
+)
+
+var audio = new Array()
+function preloadAudio() {
+  for (i = 0; i < preloadAudio.arguments.length; i++) {
+    audio[i] = new Audio()
+    audio[i].src = preloadAudio.arguments[i]
+  }
+}
+preloadAudio(
+  "artworks/02_peanutbutter/assets/PeanutButter.mp3"
+)
+
+
+
+
+
+var color1 = "#FFFF00"
+var color2 = "#FF00FF"
+var color3 = "#00FFFF"
+var color = 1
+var click = false
+var counter = "1"
+var UpDown = "Up"
+var LeftRight = "Left"
+var bgPositionX = 0
+var bgPositionY = 0
+
+$( ".canvas" ).click(function(event) {
+  click = true;
+  if (event.pageY > $( window ).height()/2){
+  	UpDown = "Down"
+  }
+  else {UpDown = "Up"}
+  
+  if (event.pageX > $( window ).width()/2){
+  	LeftRight = "Left"
+  }
+  else {LeftRight = "Right"}
+
+  if (counter == "1") {
+  		counter = "2"
+  	}
+  	else {counter = "1"}
+
+  	//console.log (UpDown)
+  	//console.log (LeftRight)
+	//console.log (counter)
+
+	if (LeftRight == "Right"){
+	$(".canvas").css("-moz-transform", "scaleX(-1)");
+    $(".canvas").css("-o-transform", "scaleX(-1)");
+    $(".canvas").css("-webkit-transform", "scaleX(-1)");
+    $(".canvas").css("transform", "scaleX(-1)");
+    $(".canvas").css("filter", "FlipH");
+    $(".canvas").css("-ms-filter", "FlipH");
+    }
+    else{
+	$(".canvas").css("-moz-transform", "scaleX(1)");
+    $(".canvas").css("-o-transform", "scaleX(1)");
+    $(".canvas").css("-webkit-transform", "scaleX(1)");
+    $(".canvas").css("transform", "scaleX(1)");
+    $(".canvas").css("filter", "FlipH");
+    $(".canvas").css("-ms-filter", "FlipH");
+    }
+
+});
+
+$(".PeanutButter").trigger('pause');
+$(".PeanutButter").trigger('play');
+
+
+var interval;
+function myFunction() {
+    interval = setInterval(alertFunc, 190);
+};
+function alertFunc() {
+	if (click == true) {
+    $(".colorful").css("opacity","1");
+    $(".colorless").css("opacity","0");
+		color ++
+		if (color>=4) {color = 1}
+		if (color ==1) {
+      $(".canvas").css("background-color",color1);
+      $(".colorful").css("color",color2);
+    }
+		if (color ==2) {
+      $(".canvas").css("background-color",color2);
+      $(".colorful").css("color",color3);
+    }
+		if (color ==3) {
+      $(".canvas").css("background-color",color3);
+      $(".colorful").css("color",color1);
+    }
+    	$(".PeanutButter").trigger('play');
+    	click = false
+
+    	$(".canvas").css("background-image","url('artworks/02_peanutbutter/assets/Dance"+counter+UpDown+".png')");
+    	//else {$(".canvas").css("background-image","url('Dance2"+UpDown+".png')");}
+
+    } else {
+       $(".colorful").css("opacity","0");
+       $(".colorless").css("opacity","1");
+    	$(".canvas").css("background-color","black");
+    	$(".canvas").css("background-image","url('artworks/02_peanutbutter/assets/DanceSad.png')");
+    	$(".PeanutButter").trigger('pause');
+    }
+};
+myFunction();
+$( "body" ).mousemove(function( event ) {
+  bgPositionX = event.pageX
+  bgPositionY = event.pageY
+  
+  $(".canvas").css("background-position-x", -event.pageX.toString() + "px");
+   $(".canvas").css("background-position-y", -event.pageY.toString() + "px");
+  //console.log (event.pageX)
+
+});
+
+</script>

@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "futura";
+    src: url(fonts/futura/FUTURASTD-LIGHT.OTF) format("opentype");
+}
+.projectname {
+  color: #f2ddc6;
+  font-family: "futura", Arial-Black;
+  line-height: 0.9em !important;
+} 
+.profile {
+  background-image: url("pics/hogan_profile.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.chapo {
+	font-size: 4em;
+	font-family: 'futura';
+	color:#f2ddc6;
+}
+

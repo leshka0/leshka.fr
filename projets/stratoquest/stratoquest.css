@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "avenir";
+    src: url(fonts/Avenir/AvenirLTStd-BookOblique.otf);
+}
+.projectname {
+  color: #dc2344;
+  font-family: "avenir", Arial-Black;
+  letter-spacing: -0.05em;
+  line-height: 0.8em !important;
+} 
+.profile {
+  background-image: url("pics/stratoquest_profile.jpg");
+  background-position: center;
+  background-size: cover;
+  border: 3px solid white;
+}

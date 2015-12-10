@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "diamante";
+    src: url(fonts/Diamante-ExtraBold.ttf) format("truetype");
+}
+.projectname {
+  color: #2caa5c;
+  font-family: "diamante", Arial-Black;
+  letter-spacing: 0em;
+  text-transform: uppercase;
+  line-height: 0.8em !important;
+} 
+.profile {
+  background-image: url("pics/cash-now_profile.jpg");
+  background-position: center;
+  background-size: cover;
+  border: 3px solid white;
+}

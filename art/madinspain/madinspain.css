@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "mistral";
+    src: url(fonts/MistralStd.otf);
+}
+.projectname {
+  color: #72011e;
+  font-family: "mistral", Arial-Black;
+  letter-spacing: -0.0em;
+  line-height: 0.8em !important;
+} 
+.profile {
+  background-image: url("pics/madinspain_profile.jpg");
+  background-position: center;
+  background-size: cover;
+  border: 3px solid white;
+}

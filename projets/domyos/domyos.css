@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Aileron-Thin";
+    src: url(fonts/Aileron-Thin.otf);
+}
+.projectname {
+  color: #ed678f;
+  font-family: "Aileron-Thin", Arial-Black;
+  letter-spacing: 0em;
+  line-height: 0.9em !important;
+} 
+.profile {
+  background-image: url("pics/domyos_profile.jpg");
+  background-position: center;
+  background-size: cover;
+}

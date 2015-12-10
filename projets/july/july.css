@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "Asap-Medium";
+    src: url(fonts/asap/Asap-Medium.otf) format("truetype");
+}
+@font-face {
+    font-family: "bebas";
+    src: url(fonts/bebas/BebasNeue_Bold.ttf) format("truetype");
+}
+@font-face {
+    font-family: "cubano";
+    src: url(fonts/cubano/cubano-regular-webfont.ttf) format("truetype");
+}
+@font-face {
+    font-family: "diamante";
+    src: url(fonts/diamante/Diamante-ExtraBold.ttf) format("truetype");
+}
+.projectname {
+  color: #83bcda;
+  font-family: "Asap-Medium", Arial-Black;
+  line-height: 0.9em !important;
+} 
+.profile {
+  background-image: url("pics/03july_profile.jpg");
+  background-position: center;
+  background-size: cover;
+  border: 3px solid white;
+}

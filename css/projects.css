@@ -1,0 +1,344 @@
+.title{ 
+  letter-spacing: -1px;
+  font-family: "grd-book";
+}
+
+/*  -- I REMEMBER --   */
+
+@font-face {
+    font-family: "century";
+    src: url(../projets/i-remember/fonts/century/CenturyStd-Book.otf);
+}
+@font-face {
+    font-family: "avenir";
+    src: url(../projets/i-remember/fonts/avenir/AvenirLTStd-Light.otf);
+}
+
+.i-remember {
+  background:url("../projets/i-remember/pics/i-remember_header.jpg");
+  background-color: #0f0f0f;
+  background-size: cover;
+  font-size: 123px;
+  line-height: 100px;
+  letter-spacing: -0.04em;
+  font-family: "avenir", "Arial";
+} 
+.quote .title-i-remember:hover{ 
+  color: #a4633f;
+}
+.quote .title-i-remember{ 
+  color: #a4633f;
+}
+
+/*  -- NESPRESSO --   */
+
+@font-face {
+    font-family: "FrutigerLTStd-Roman";
+    src: url(../projets/nespresso/fonts/FrutigerLTStd-Roman.otf);
+}
+
+.nespresso {
+  background:url("../projets/nespresso/pics/nespresso_header2.jpg");
+  background-color: black;
+  background-size: cover;
+  font-size: 123px;
+  line-height: 100px;
+  letter-spacing: -0.04em;
+  font-family: "FrutigerLTStd-Roman", "Times";
+} 
+.quote .title-nespresso:hover{ 
+  color: #a69346;
+}
+.quote .title-nespresso{ 
+  color: #a69346;
+}
+
+/*  -- Jagermeister --   */
+
+@font-face {
+    font-family: "Solano";
+    src: url(../projets/jagermeister/fonts/SolanoGothicMVB-Bd.otf);
+}
+
+.jagermeister {
+  background:url("../projets/jagermeister/pics/jager_header.jpg");
+  background-color: black;
+  background-size: cover;
+  font-size: 123px;
+  line-height: 100px;
+  letter-spacing: -0.04em;
+  font-family: "Solano", "Arial-Black";
+  text-transform: uppercase;
+} 
+.quote .title-jagermeister:hover{ 
+  color: #ff4600;
+}
+.quote .title-jagermeister{ 
+  color: #ff4600;
+}
+
+/*  -- DIOR ADDICT --   */
+
+.dior-addict {
+  background:url("../projets/dior_addict/pics/dior_addict_header.jpg");
+  background-color: #0f0f0f;
+  background-size: cover;
+    font-size: 102px;
+  line-height: 100px;
+
+}
+
+/*  -- KENZO --   */
+
+.kenzo_men {
+  background:url("../projets/kenzo_men/pics/kenzo_men_header.jpg");
+  background-color: #ffed08;
+  background-size: cover;
+    font-size: 102px;
+  line-height: 100px;
+
+} 
+
+/*  -- STRATOQUEST --   */
+
+.stratoquest {
+  background:url("../projets/stratoquest/pics/stratoquest_header.jpg");
+  background-color: #000;
+  background-size: cover;
+    font-size: 102px;
+  line-height: 100px;
+
+} 
+
+/*  -- PLAN --   */
+
+.plan {
+  background:url("../projets/plan/pics/plan_header.jpg");
+  background-color: #ff7272;
+  background-size: cover;
+    font-size: 152px;
+  line-height: 100px;
+
+} 
+
+
+/*  -- PETIT PAUME --   */
+
+.petitpaume {
+  background:url("../projets/petitpaume/pics/petitpaume_header.jpg");
+  background-color: #bce9c5;
+  background-size: cover;
+  font-size: 102px;
+  line-height: 100px;
+  letter-spacing: -0.03em;
+} 
+
+/*  -- HOGAN --   */
+@font-face {
+    font-family: "futura";
+    src: url(../projets/hogan/fonts/futura/FUTURASTD-MEDIUM.OTF) format("opentype");
+}
+.hogan {
+  background:url("../projets/hogan/pics/hogan_header.jpg");
+  background-color: #f3e1c9;
+  background-size: cover;
+  font-size: 102px;
+  line-height: 100px;
+  letter-spacing: -0.03em;
+  font-family: "futura", "Arial";
+} 
+.quote .title-hogan{ 
+  color: #f3e1c9;
+}
+.quote .title-hogan:hover{ 
+  color: #f3e1c9;
+}
+
+/*  -- THE GAME OF THRONES --   */
+
+.gameofthrones {
+  background:url("../projets/gameofthrones/pics/gameofthrones_header.jpg");
+  background-color: #bce9c5;
+  background-size: cover;
+  font-size: 102px;
+  line-height: 100px;
+  letter-spacing: -0.03em;
+  font-family: "avenir", "Arial";
+} 
+
+/*  -- 03 July --   */
+
+@font-face {
+    font-family: "Asap-Medium";
+    src: url(../projets/july/fonts/asap/Asap-Medium.otf) format("truetype");
+}
+.july {
+  background:url("../projets/july/pics/hungry-now_header.jpg");
+  background-color: #c2e3e8;
+  background-size: cover;
+  font-size: 102px;
+  line-height: 85px;
+  letter-spacing: -0.03em;
+
+  font-family: "Asap-Medium", Arial-Black;
+} 
+.quote .title-july{ 
+  color: #c2e3e8;
+}
+.quote .title-july:hover{ 
+  color: #c2e3e8;
+}
+
+/*  -- HUNGRY NOW --   */
+
+@font-face {
+    font-family: "cubano";
+    src: url(../projets/hungrynow/fonts/cubano/cubano-regular-webfont.ttf) format("truetype");
+}
+.hungrynow {
+  background:url("../projets/hungrynow/pics/hungry-now_header.jpg");
+  background-color: #da0006;
+  background-size: cover;
+  font-size: 102px;
+  line-height: 75px;
+  letter-spacing: -0.06em;
+  font-family: "cubano", Arial-Black;
+} 
+.quote .title-hungry-now{ 
+  color: #da0006;
+}
+.quote .title-hungry-now:hover{ 
+  color: #da0006;
+}
+
+/*  -- GASOIL NOW --   */
+
+@font-face {
+    font-family: "bebas";
+    src: url(../projets/gasoilnow/fonts/bebas/BebasNeue_Bold.ttf) format("truetype");
+}
+.gasoilnow {
+  background:url("../projets/gasoilnow/pics/gasoil-now_header.jpg");
+  background-color: #eda33a;
+  background-size: cover;
+  font-size: 102px;
+  line-height: 75px;
+  letter-spacing: -0.06em;
+  font-family: "bebas", Arial-Black;
+} 
+.quote .title-gasoil-now{ 
+  color: #eda33a;
+}
+.quote .title-gasoil-now:hover{ 
+  color: #eda33a;
+}
+
+/*  -- CASH NOW --   */
+
+.cashnow {
+  background:url("../projets/cashnow/pics/cash-now_header.jpg");
+  background-color: #2caa5c;
+} 
+
+/*  -- CUTBACK --   */
+
+.cutback {
+  background:url("../projets/cutback/pics/cutback_header.jpg");
+  background-color: #484848;
+} 
+
+
+/*  -- DOMYOS --   */
+
+.domyos {
+  background:url("../projets/domyos/pics/domyos_header.jpg");
+  background-color: #484848;
+  font-size: 95px;
+  line-height: 80px;
+  font-family: "Arial-Black";
+  text-transform: uppercase;
+}
+
+
+/*  -- ONL --   */
+
+@font-face {
+    font-family: "MistralStd";
+    src: url(../projets/onl/fonts/MistralStd.otf) format("truetype");
+}
+.onl {
+  background:url("../projets/onl/pics/onl_header.jpg");
+  background-color: #e3001b;
+  background-size: cover;
+  font-size: 102px;
+  line-height: 95px;
+  letter-spacing: -0.0em;
+  font-family: "MistralStd", Arial-Black;
+} 
+
+/*  -- MAD in Spain --   */
+
+@font-face {
+    font-family: "mistral";
+    src: url(../art/madinspain/fonts/MistralStd.otf);
+}
+
+.madinspain {
+  background:url("../art/madinspain/pics/madinspain_header.jpg");
+  background-size: cover;
+  font-size: 132px;
+  line-height: 120px;
+  letter-spacing: -0.0em;
+  font-family: "mistral", "Times";
+} 
+.quote .title-madinspain:hover{ 
+  color: #72011e;
+}
+.quote .title-madinspain{ 
+  color: #72011e;
+}
+
+/*  -- New Born --   */
+
+@font-face {
+    font-family: "mistral";
+    src: url(../art/new_born/fonts/MistralStd.otf);
+}
+
+.new_born {
+  background:url("../art/new_born/pics/madinspain_header.jpg");
+  background-size: cover;
+  font-size: 132px;
+  line-height: 120px;
+  letter-spacing: -0.0em;
+  font-family: "mistral", "Times";
+} 
+.quote .title-new_born:hover{ 
+  color: #72011e;
+}
+.quote .title-new_born{ 
+  color: #72011e;
+}
+
+/*  -- VOID --   */
+
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url(../art/void/fonts/Montserrat-Regular.ttf);
+}
+
+.void {
+  background:url("../art/void/pics/void_header.jpg");
+  background-size: cover;
+  font-size: 102px;
+  line-height: 100px;
+  letter-spacing: -0.0em;
+  text-transform: uppercase;
+  font-family: "Montserrat-Regular", "Times";
+} 
+.quote .title-void:hover{ 
+  color: #ffffff;
+}
+.quote .title-void{ 
+  color: #ffffff;
+}

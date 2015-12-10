@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "Charlemagne";
+    src: url(fonts/CharlemagneStd-Regular.otf) format("truetype");
+}
+.projectname {
+  color: #5d5e72;
+  font-family: "Charlemagne", Arial-Black;
+  font-size: 5em !important;
+  letter-spacing: 0em;
+  text-transform: uppercase;
+  line-height: 0.9em !important;
+} 
+.profile {
+  background-image: url("pics/gameofthrones_profile.jpg");
+  background-position: center;
+  background-size: cover;
+}
